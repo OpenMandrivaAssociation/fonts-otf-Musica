@@ -49,3 +49,18 @@ ln -s ../../../%{fontdir} %{buildroot}%{fontconfdir}/otf-%{fontname}:pri=50
 %{fontdir}/*.otf
 %{fontdir}/fonts.*
 
+
+
+%changelog
+* Tue May 17 2011 Funda Wang <fwang@mandriva.org> 2.52-3mdv2011.0
++ Revision: 675511
+- br fontconfig for fc-query used in new rpm-setup-build
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 2.52-2mdv2011.0
++ Revision: 610723
+- rebuild
+
+* Wed Mar 03 2010 Lev Givon <lev@mandriva.org> 2.52-1mdv2010.1
++ Revision: 513934
+- import fonts-otf-Musica
+
